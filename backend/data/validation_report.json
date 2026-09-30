@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "rows_in_v3": 623,
+    "rows_in_v2": 623,
+    "rows_cleaned": 623,
+    "cross_check_matched": 623,
+    "rating_unresolved": 0,
+    "duplicate_title_variants": 5
+  },
+  "checks": [
+    {
+      "check": "non_empty_dataset",
+      "passed": true,
+      "detail": "623 courses"
+    },
+    {
+      "check": "unique_course_ids",
+      "passed": true,
+      "detail": "623 ids / 623 rows"
+    },
+    {
+      "check": "titles_present",
+      "passed": true,
+      "detail": "0 blank"
+    },
+    {
+      "check": "organizations_present",
+      "passed": true,
+      "detail": "0 blank"
+    },
+    {
+      "check": "skills_present",
+      "passed": true,
+      "detail": "0 rows without skills"
+    },
+    {
+      "check": "etl_comma_trap_handled",
+      "passed": true,
+      "detail": "phantoms: none"
+    },
+    {
+      "check": "skills_normalised",
+      "passed": true,
+      "detail": "0 rows with raw-cased skills"
+    },
+    {
+      "check": "ratings_in_range",
+      "passed": true,
+      "detail": "0 out of range"
+    },
+    {
+      "check": "difficulty_vocabulary",
+      "passed": true,
+      "detail": "unexpected: none"
+    },
+    {
+      "check": "type_vocabulary",
+      "passed": true,
+      "detail": "unexpected: none"
+    },
+    {
+      "check": "duration_ranges_ordered",
+      "passed": true,
+      "detail": "0 inverted"
+    },
+    {
+      "check": "untrusted_descriptions_are_derived",
+      "passed": true,
+      "detail": "0 unlabelled replacements"
+    },
+    {
+      "check": "description_status_vocabulary",
+      "passed": true,
+      "detail": "unexpected: none"
+    },
+    {
+      "check": "urls_valid_or_empty",
+      "passed": true,
+      "detail": "0 malformed"
+    },
+    {
+      "check": "no_low_alignment_descriptions_trusted",
+      "passed": true,
+      "detail": "0 trusted despite low alignment"
+    },
+    {
+      "check": "index_text_present",
+      "passed": true,
+      "detail": "0 empty"
+    },
+    {
+      "check": "category_assigned",
+      "passed": true,
+      "detail": "0 unassigned"
+    },
+    {
+      "check": "prerequisite_edges_valid",
+      "passed": true,
+      "detail": "0 invalid edges"
+    },
+    {
+      "check": "provenance_present",
+      "passed": true,
+      "detail": "0 rows without source row"
+    }
+  ],
+  "edges": 1738
+}

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+rank-bm25
+python-dotenv
+groq
+langgraph
+crawl4ai
+fastembed

@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+__pycache__
+backend/data/feedback.jsonl
+.venv
+backend/data/app.db
+backend/data/.emb_cache.pkl
